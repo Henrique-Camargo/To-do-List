@@ -90,11 +90,11 @@ public class Main {
                         if (taskNumber > 0 && taskNumber <= listTaks.size()) {
                             Tasks task = listTaks.get(taskNumber - 1);
                             System.out.println("Status atual: " + task.getStatus());
-                            System.out.print("Deseja mudar o status para CONCLUÍDO? (S/N): ");
+                            System.out.print("Deseja mudar o status para CONCLUDED? (S/N): ");
                             char choice = sc.next().charAt(0);
                             if (choice == 'S' || choice == 's') {
-                                task.setStatus(Status.FINISH);
-                                System.out.println("Status alterado para CONCLUÍDO.");
+                                task.setStatus(Status.CONCLUDED);
+                                System.out.println("Status alterado para CONCLUDED.");
                             } else {
                                 System.out.println("Status não alterado.");
                             }
