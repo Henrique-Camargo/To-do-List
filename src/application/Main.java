@@ -31,6 +31,7 @@ public class Main {
             System.out.print("Digite um numero: ");
             caso = sc.nextInt();
 
+
             if (caso < 1 || caso > 5) {
                 System.out.println("Opção inválida. Tente novamente.");
                 continue;
