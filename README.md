@@ -1,4 +1,5 @@
-To-Do List em Java
+To-Do List em java
+
 Este projeto é uma aplicação de To-Do List desenvolvida em Java, onde o usuário pode adicionar, remover, visualizar e alterar o status das tarefas. O código foi criado para praticar e aprender conceitos básicos e intermediários de Java, como manipulação de listas, controle de fluxo e enumerações.
 
 Funcionalidades
